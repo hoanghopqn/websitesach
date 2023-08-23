@@ -1,0 +1,68 @@
+.Banner {
+    margin-top: 120px;
+    padding: 10px 30px;
+    margin-left: 100px;
+    margin-right: 20px;
+    max-width: 85%;
+    height: 100%;
+    background: #ffffff;
+    border: 3px outset #aea8a8;
+    .Banner-Container {
+        .Banner-header {
+            height: 30px;
+            .Banner-title {
+                font-size: 22px;
+                font-weight: bold;
+            }
+            .Banner-btn {
+                float: right;
+                display: block;
+                border: none;
+                outline: none;
+                background: rgb(20, 20, 163);
+                color: black;
+                border-radius: 8px;
+                cursor: pointer;
+                text-transform: uppercase;
+                &:hover {
+                    color: white;
+                    background: #000000;
+                }
+            }
+        }
+        .Banner-body {
+            .single-product {
+                margin-left: 20px;
+            }
+            .slick-prev {
+                left: -1.5% !important;
+                z-index: 99!important;
+                border-radius: 5vw;
+                &:hover {
+                    background: #d7d7d7 !important;
+                }
+            }
+            .slick-next::before {
+                content: "→";
+                font-size: 40px;
+                color: red !important;
+                // content: "\f053" !important;
+            }
+            .slick-prev::before {
+                content: "←";
+                font-size: 40px;
+                color: red !important;
+                // content: "\f053" !important;
+            }
+            .slick-next {
+                background: white !important;
+                right: -0.2% !important;
+                z-index: 99;
+                border-radius: 5vw;
+                &:hover {
+                    background: #d7d7d7 !important;
+                }
+            }
+        }
+    }
+}

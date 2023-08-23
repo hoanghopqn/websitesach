@@ -1,0 +1,40 @@
+.review-content {
+    display: flex;
+    .review {
+        margin-left: 120px;
+        margin-top: 50px;
+        border: 3px solid;
+        width: 1280px !important;
+        .review-detail {
+            display: flex;
+            margin: 20px;
+            border-bottom: 2px solid;
+            .img-user {
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+            }
+            .review-detail-title {
+                margin-left: 10px;
+                margin-bottom: 15px;
+            }
+            .review-detail-content {}
+        }
+    }
+    .review-danhgia {
+        right: 50px;
+        margin: 50px;
+        border: 3px solid;
+        width: 280px !important;
+        z-index: 1;
+        height: 220px !important;
+        input {
+            margin-left: 10px;
+            width: 230px;
+            height: 20px;
+        }
+        button {
+            margin: 10px;
+        }
+    }
+}

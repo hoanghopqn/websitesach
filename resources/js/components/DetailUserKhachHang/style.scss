@@ -1,0 +1,20 @@
+ .feature {
+     .feature-btndetail {
+         display: flex !important;
+         flex-direction: column;
+         .active {
+             background-color: aqua;
+         }
+     }
+ }
+ 
+ .feature-ddh {
+     width: 1780px;
+     .feature-ddh-btn {
+         display: flex;
+         .ddhbtn {
+             width: 550px !important;
+             height: 30px !important;
+         }
+     }
+ }

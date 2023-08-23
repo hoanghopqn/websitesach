@@ -1,0 +1,49 @@
+.card {
+    width: 280px !important;
+    border-radius: 5px;
+    position: relative;
+    border: 3px solid;
+    &__image {
+        width: 100%;
+        height: 300px;
+    }
+    &-title {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    &-body {
+        margin-bottom: 20px;
+    }
+    &-footer {
+        background-color: #dadada;
+    }
+}
+
+.style-phantram {
+    position: absolute;
+    text-decoration: none;
+    right: 1px;
+    bottom: 1px;
+    color: rgb(255, 0, 0) !important;
+}
+
+.style-price {
+    text-decoration: line-through !important;
+    margin-right: 40px !important;
+    color: black !important;
+}
+
+.discount_price {
+    display: none;
+}
+
+.price {
+    text-decoration: none;
+    color: black !important;
+    margin-left: 10px;
+}
+
+.discount {
+    text-decoration: none;
+    color: rgb(255, 0, 0) !important;
+}

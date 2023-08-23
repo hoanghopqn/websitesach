@@ -1,0 +1,31 @@
+.page-user {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 60px;
+    width: 150px;
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+    z-index: 1;
+    right: 105px;
+    background-color: aqua;
+    .user-menu {
+        .user-button {
+            margin-top: 5px;
+            width: 100%;
+            border-radius: 10px;
+            height: 40px;
+        }
+        .user-login {
+            background-color: red;
+            color: aliceblue;
+            border: 3px solid black;
+        }
+        .user-register {
+            background-color: aliceblue;
+            border: 3px solid red;
+            color: red;
+        }
+    }
+}

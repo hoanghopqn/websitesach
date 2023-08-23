@@ -1,0 +1,74 @@
+.Single-cardbook {
+    margin-left: 120px;
+    margin-top: 50px;
+    border: 3px solid;
+    border-radius: 10px;
+    max-width: 1780px;
+    .main-cardbook {
+        margin: 20px;
+        display: flex;
+        .body-cardbook {
+            margin-left: 250px;
+            .cardbook-title {
+                font-size: 40px;
+            }
+            .cardbook-tentacgia,
+            .cardbook-tennuoc {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                display: flex;
+                font-size: 20px;
+                align-items: center;
+                a {
+                    margin-left: 20px;
+                    font-size: 30px;
+                }
+            }
+            .cardbook-gia {
+                font-size: 30px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .cardbook-hang {
+                font-size: 30px;
+                margin-top: 20px;
+                color: red;
+                margin-bottom: 20px;
+            }
+            .cardbook-soluong {
+                display: flex;
+                font-size: 30px;
+                .button-soluong {
+                    .button-number {
+                        margin-left: 20px;
+                        margin-right: 20px;
+                    }
+                    display: flex;
+                    border-radius: 5px;
+                    border: 1px solid rgb(152, 149, 149);
+                    margin-left: 100px;
+                }
+            }
+            .button-cardbook {
+                margin-top: 50px;
+                .add-cart {
+                    margin-right: 30px;
+                    border-radius: 10px;
+                    width: 250px;
+                    height: 50px;
+                    border-color: red;
+                    background-color: white;
+                }
+                .mua-cart {
+                    margin-right: 30px;
+                    border-radius: 10px;
+                    width: 250px;
+                    height: 50px;
+                    color: white;
+                    border-color: rgb(0, 0, 0);
+                    background-color: red;
+                }
+            }
+        }
+    }
+}

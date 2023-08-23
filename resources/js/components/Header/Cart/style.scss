@@ -1,0 +1,39 @@
+.page-Cart {
+    max-height: 1400px;
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    width: 60% !important;
+    border-radius: 10px;
+    left: -15% !important;
+    background-color: rgb(255, 255, 255) !important;
+    border: 3px solid;
+    .product {
+        .cart-product {
+            margin: 10px;
+            display: flex;
+            .gia {
+                margin-left: 50px;
+                color: orange;
+            }
+        }
+        img {
+            width: 70px;
+            height: 80px;
+        }
+        a {
+            font-size: 15px;
+            margin-left: 10px;
+        }
+        .cart-button {
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            button {
+                width: 100px;
+                background-color: aqua;
+                margin-right: 10px;
+            }
+        }
+    }
+}

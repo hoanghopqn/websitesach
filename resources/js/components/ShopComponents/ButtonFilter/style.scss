@@ -1,0 +1,12 @@
+ .content-btn {
+     margin-left: 70px;
+     align-items: center;
+     display: flex;
+     margin-bottom: 20px;
+     .MuiPaper-root {
+         margin-left: 10px;
+         max-width: 205px;
+         background-color: aquamarine;
+         .MuiAlert-action {}
+     }
+ }

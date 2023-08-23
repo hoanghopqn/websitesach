@@ -1,0 +1,45 @@
+.button-duyet {
+    width: 70px;
+    height: 20px;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+.button-tuchoi {
+    width: 70px;
+    height: 20px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.dondathang-content {
+    position: relative;
+    .displaynone {
+        display: none;
+    }
+    .ctddh-content {
+        .button-close {
+            float: right;
+            font-size: 30px;
+        }
+        position: absolute;
+        z-index: 1;
+        margin-left: 20%;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+.feature-ddh {
+    .feature-ddh-btn {
+        .active {
+            background-color: aqua;
+        }
+        Button {
+            width: 150px;
+            height: 30px;
+        }
+    }
+    .ddh-table {
+        width: 1380px !important;
+    }
+}
